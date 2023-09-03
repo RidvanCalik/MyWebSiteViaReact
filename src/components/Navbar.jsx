@@ -1,21 +1,18 @@
-import { MdHome, MdPerson, MdMail, MdSettings } from "react-icons/md";
+import { MdHome, MdSettings } from "react-icons/md";
 import Carousel from "./Carusel";
 function Navbar({ childrien }) {
   return (
     <div className=" z-10 w-1/12 h-full bg-transparent fixed flex items-center justify-center ">
-      <div className="h-3/6 flex flex-col  justify-evenly ">
-        <div className="navbar-icon" onClick={() => Carousel.toPage(1)}>
-          <MdHome />
-        </div>
-        <div className="navbar-icon" onClick={() => Carousel.toPage(2)}>
-          <MdPerson />
-        </div>
-        <div className="navbar-icon">
-          <MdMail />
-        </div>
-        <div className="navbar-icon">
-          <MdSettings />
-        </div>
+      <div className="gap-10 h-auto flex flex-col  justify-evenly bg-indigo-900 px-3 py-5 rounded-3xl text-white text-5xl ">
+        <MdHome
+          className="duration-75 hover:scale-90"
+          onClick={() => Carousel.toPage(1)}
+        />
+
+        <MdSettings
+          className="duration-75 hover:scale-90"
+          onClick={() => Carousel.toPage(2)}
+        />
       </div>
     </div>
   );

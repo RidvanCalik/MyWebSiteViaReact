@@ -3,15 +3,25 @@
 @tailwind utilities;
 
 @layer components {
-  .navbar-icon {
-    @apply text-slate-300
-    bg-blue-950
-    p-4
-    transition-all
-    cursor-pointer
-    rounded-xl
-    text-3xl
-    hover:text-slate-50
-     hover:rounded-3xl;
+  *{
+    font-family: Arial, Helvetica, sans-serif;
+    cursor:default;
   }
+  *::selection{
+    @apply
+    bg-indigo-900
+    text-white
+ 
+  
+  }
+    .skills{
+      @apply p-3 rounded-xl
+      transition-all ease-in-out
+    }
+  .skillsHover{
+    @apply
+     hover:-translate-y-1 hover:text-indigo-700  hover:bg-slate-200 ;
+  }
+  
+
 }

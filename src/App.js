@@ -1,22 +1,17 @@
 import "./App.css";
 
-import Navbar from "./components/Navbar";
-import HomeCard from "./components/HomeCard";
-import Carousel from "./components/Carusel";
+
+
+import store from './store/store';
+import { Provider } from 'react-redux'
+import Main from "Main";
 
 function App() {
 
-  
- 
   return (
-    <div className="flex w-screen h-screen dark">
-     <Navbar/>
-      <Carousel >
-        <HomeCard/>
-        <HomeCard/>
-        <HomeCard/>
-      </Carousel>
-    </div>
+    <Provider store={store}>
+      <Main/>
+    </Provider>
   );
 }
 

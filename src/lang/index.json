@@ -1,0 +1,18 @@
+{
+    "TR":{
+        "helloText":"Merhaba",
+        "presentation_1_Text":"Ben Rıdvan, kısaca",
+        "presentation_2_Text":"Web Developer",
+          "presentation_3_Text":"Bilişim teknolojileri & Web programala alanından mezunum. Bilgisayar donanımlarının ve yazılımlarının sürekliliğini sağlamakla birlikte yazılım çözümleri üretmekteyim.",
+          "skillsText":"Yetenekler"
+
+    },
+    "EN":{
+        "helloText":"Hello",
+        "presentation_1_Text":"I'm Rıdvan, Aka",
+        "presentation_2_Text":"Web Developer",
+        "presentation_3_Text":"I'm graduated from IT & Web development. I'm provide software solution with the sustainability of computer compoenets and softwares.",
+         "skillsText":"Skills"
+
+    }
+}
