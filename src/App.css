@@ -20,7 +20,7 @@
     }
   .skillsHover{
     @apply
-     hover:-translate-y-1 hover:text-indigo-700  hover:bg-slate-200 ;
+      hover:-translate-y-1 hover:text-indigo-700   hover:bg-slate-200 ;
   }
   
 

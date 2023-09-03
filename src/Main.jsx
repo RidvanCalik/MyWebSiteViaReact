@@ -8,7 +8,7 @@ function Main() {
   var isDark = useSelector((state) => state.settingsStore.isDark);
   return (
     <div className={"flex w-screen h-screen  " + (isDark && "dark")}>
-      <div className="fixed  z-0 h-[200vh] w-[200vw] animate-bganim bg-gradient-to-t from-slate-100 to-slate-600 dark:from-slate-600 dark:to-slate-900  "></div>
+      <div className="fixed  z-0 h-[200vh] w-[200vw] animate-bganim bg-gradient-to-t from-slate-400 to-slate-700 dark:from-slate-800 dark:to-slate-950  "></div>
       <Navbar />
 
       <Carousel>
